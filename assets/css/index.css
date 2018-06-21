@@ -12,34 +12,12 @@ p{
 	text-align: center;
 }
 
-p, ul{
-	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size-adjust:0.488;
-	font-weight:200;
-	font-style:normal;
-}
-
-img{
-	border: 0;
-}
-
-h1, #pixels{
-	font-family:"Museo 900", Verdana, serif;
-	font-size-adjust:0.40;
-	font-weight:700;
-	font-style:normal;
-}
-
 h2{
 	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
 	font-size-adjust:0.531;
 	font-weight:500;
 	font-style:normal;
 	text-align: center;
-}
-
-#header h1, #pixels{
-	color: #48941A;
 }
 
 .float-left{
@@ -53,23 +31,7 @@ h2{
 	margin: 0 20px 0 0;
 }
 
-.center{
-	font-size: 2.5em;
-	padding: 80px 0 0 0;
-	text-align: center;
-}
-
-#nav{
-	list-style: none;
-	position: fixed;
-	right: 20px;
-}
-
-#nav li{
-	margin: 0 0 15px 0;	
-}
-
-#header, #about, #video{
+#about, #video{
 	width: 100%;
 }
 
@@ -83,7 +45,7 @@ h2{
 }
 
 #otter{
-	/*background: url(https://ianlunn.co.uk/plugins/jquery-parallax/images/videoBG.jpg) 50% 0 no-repeat fixed;*/
+	background-color: #ccc;
 	color: white;
 	height: 500px;
 	margin: 0 auto;
@@ -94,13 +56,11 @@ h2{
 
 .work {
     display: block;
-    background-color: #cdd0ff;
+    /*background-color: #cdd0ff;*/
 
 }
-/*.camera {
-	height: 200px;
-	width: 300px;
-}*/
+
+
 #otter .camera{
 	background: url("../images/otter.gif") 50% 0 no-repeat fixed;
 	height: 500px;
@@ -115,14 +75,17 @@ h2{
 #video{
 	height: 350px;
 	padding: 100px 0 0 0;
-	background-color: #dbdbdb;
+	/*background-color: #dbdbdb;*/
+	background-color: #cdd0ff;
+	overflow: hidden;
 }
 
 #connect{
-	background: #ccc;
+	background: #cdd0ff;
 	height: 400px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
+	overflow: hidden;
 }
 
 .text{
